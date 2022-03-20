@@ -31,10 +31,31 @@ export type PaletteIcon = {
   line: string;
 };
 
+export type TextColor = {
+  primary: string;
+  secondary: string;
+  disable: string;
+};
+
+export type PaletteAction = {
+  active: string;
+  hover: string;
+  hoverOpacity: number;
+  selected: string;
+  selectedOpacity: number;
+  disabled: string;
+  disabledBackground: string;
+  disabledOpacity: number;
+  focus: string;
+  focusOpacity: number;
+  activatedOpacity: number;
+};
+
 export type Palette = {
   white: string;
   black: string;
   primary: PaletteColor;
+  secondary: PaletteColor;
   success: PaletteColor;
   warning: PaletteColor;
   danger: PaletteColor;
@@ -43,12 +64,20 @@ export type Palette = {
   background: PaletteBackground;
   divider: string;
   icon: PaletteIcon;
+  action: PaletteAction;
 };
 
 export const palette: Palette = {
   white: colors.basic[50] as string, // TODO
   black: colors.basic[900],
   primary: {
+    deepDark: colors.blue[700],
+    dark: colors.blue[600],
+    main: colors.blue[500],
+    light: colors.blue[200],
+    highlight: colors.blue[100],
+  },
+  secondary: {
     deepDark: colors.blue[700],
     dark: colors.blue[600],
     main: colors.blue[500],
@@ -101,6 +130,20 @@ export const palette: Palette = {
     active: colors.blue[500],
     fill: colors.basic[700],
     line: colors.basic[600],
+  },
+  // WIP
+  action: {
+    active: "rgba(0, 0, 0, 0.54)",
+    hover: "rgba(0, 0, 0, 0.04)",
+    hoverOpacity: 0.04,
+    selected: "rgba(0, 0, 0, 0.08)",
+    selectedOpacity: 0.08,
+    disabled: "rgba(0, 0, 0, 0.26)",
+    disabledBackground: "rgba(0, 0, 0, 0.12)",
+    disabledOpacity: 0.08,
+    focus: "rgba(0, 0, 0, 0.12)",
+    focusOpacity: 0.12,
+    activatedOpacity: 0.12,
   },
 };
 
