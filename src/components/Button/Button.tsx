@@ -43,7 +43,7 @@ const getContainerColorStyles = (
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
-      )} inset, 0px 2px ${hexToRgba(theme.palette.black, shadows[0])}`,
+      )} inset, 0px 2px ${hexToRgba(theme.palette.black, theme.shadows[0])}`,
       border: `1px solid ${theme.palette.primary.dark}`,
     },
     hover: {
@@ -66,7 +66,7 @@ const getContainerColorStyles = (
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
-      )} inset, 0px 2px ${hexToRgba(theme.palette.black, shadows[0])}`,
+      )} inset, 0px 2px ${hexToRgba(theme.palette.black, theme.shadows[0])}`,
       border: `1px solid ${theme.palette.divider}`,
     },
     hover: {
