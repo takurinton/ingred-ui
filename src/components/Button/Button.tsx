@@ -39,10 +39,10 @@ const getContainerColorStyles = (
   primary: {
     normal: {
       background: theme.palette.primary.main,
-      color: theme.palette.text.white,
+      color: theme.palette.text.primary,
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
-        0.16,
+        theme.shadows[1],
       )} inset, 0px 2px ${hexToRgba(theme.palette.black, 0.08)}`,
       border: `1px solid ${theme.palette.primary.dark}`,
     },
@@ -52,27 +52,33 @@ const getContainerColorStyles = (
     },
     active: {
       background: theme.palette.primary.dark,
-      boxShadow: `inset 0 2px ${hexToRgba(theme.palette.black, 0.16)}`,
+      boxShadow: `inset 0 2px ${hexToRgba(
+        theme.palette.black,
+        theme.shadows[1],
+      )}`,
       border: "none",
     },
   },
   secondary: {
     normal: {
-      background: theme.palette.background.default,
-      color: theme.palette.black,
+      background: theme.palette.secondary.main,
+      color: theme.palette.text.secondary,
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
-        0.16,
+        theme.shadows[1],
       )} inset, 0px 2px ${hexToRgba(theme.palette.black, 0.08)}`,
       border: `1px solid ${theme.palette.divider}`,
     },
     hover: {
-      background: theme.palette.gray.highlight,
+      background: theme.palette.secondary.dark,
       border: `1px solid ${theme.palette.divider}`,
     },
     active: {
-      background: theme.palette.gray.highlight,
-      boxShadow: `inset 0 2px ${hexToRgba(theme.palette.black, 0.16)}`,
+      background: theme.palette.secondary.dark,
+      boxShadow: `inset 0 2px ${hexToRgba(
+        theme.palette.black,
+        theme.shadows[1],
+      )}`,
       border: `1px solid ${theme.palette.divider}`,
     },
   },
@@ -82,7 +88,7 @@ const getContainerColorStyles = (
       color: theme.palette.text.white,
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
-        0.16,
+        theme.shadows[1],
       )} inset, 0px 2px ${hexToRgba(theme.palette.black, 0.08)}`,
       border: `1px solid ${theme.palette.danger.dark}`,
     },
@@ -92,23 +98,26 @@ const getContainerColorStyles = (
     },
     active: {
       background: theme.palette.danger.dark,
-      boxShadow: `inset 0 2px ${hexToRgba(theme.palette.black, 0.16)}`,
+      boxShadow: `inset 0 2px ${hexToRgba(
+        theme.palette.black,
+        theme.shadows[1],
+      )}`,
       border: "none",
     },
   },
   clear: {
     normal: {
       background: "none",
-      color: theme.palette.gray.deepDark,
+      color: theme.palette.clear.deepDark,
       boxShadow: "none",
       border: "none",
     },
     hover: {
-      background: theme.palette.gray.light,
+      background: theme.palette.clear.light,
       border: "none",
     },
     active: {
-      background: theme.palette.gray.main,
+      background: theme.palette.clear.main,
       boxShadow: "none",
       border: "none",
     },

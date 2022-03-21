@@ -59,7 +59,8 @@ export type Palette = {
   success: PaletteColor;
   warning: PaletteColor;
   danger: PaletteColor;
-  gray: PaletteColor;
+  clear: PaletteColor;
+  gray: PaletteColor; // TODO: なくすかどうにかする
   text: PaletteText;
   background: PaletteBackground;
   divider: string;
@@ -105,6 +106,13 @@ export const palette: Palette = {
     light: colors.red[300],
     highlight: colors.red[100],
   },
+  clear: {
+    deepDark: colors.basic[600],
+    dark: colors.basic[500],
+    main: colors.basic[300],
+    light: colors.basic[200],
+    highlight: colors.basic[100],
+  },
   gray: {
     deepDark: colors.basic[600],
     dark: colors.basic[500],
@@ -143,7 +151,7 @@ export const palette: Palette = {
     disabledOpacity: 0.08,
     focus: "rgba(0, 0, 0, 0.12)",
     focusOpacity: 0.12,
-    activatedOpacity: 0.12,
+    activatedOpacity: 0.16,
   },
 };
 
