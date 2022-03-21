@@ -36,7 +36,7 @@ export function createTheme(options: ThemeOptions = {}): Theme {
   // TODO: shadows の持ち方について考える
   // createTheme 関数をラップするようにするか、ユーザーに渡させるか
   // theme 定義あたりをもう少し丁寧に定義する必要がありそう
-  return { ...theme, shadows: [0.12, 0.16] };
+  return { ...theme, shadows: [0.08, 0.16] };
 }
 
 declare module "styled-components" {
