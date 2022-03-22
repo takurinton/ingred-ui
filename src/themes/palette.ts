@@ -121,7 +121,8 @@ export const palette: Palette = {
     highlight: colors.basic[100],
   },
   text: {
-    primary: colors.blue[500],
+    // primary: colors.basic[900],
+    primary: "rgba(0, 0, 0, 0.87)",
     secondary: colors.basic[700],
     disabled: colors.basic[400],
     hint: colors.basic[400],

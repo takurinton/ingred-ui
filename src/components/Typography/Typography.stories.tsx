@@ -13,7 +13,9 @@ export default {
         options: [
           "initial",
           "primary",
+          "textPrimary",
           "secondary",
+          "textSecondary",
           "disabled",
           "hint",
           "white",
