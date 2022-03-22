@@ -62,14 +62,14 @@ export type Palette = {
   clear: PaletteColor;
   gray: PaletteColor; // TODO: なくすかどうにかする
   text: PaletteText;
-  background: PaletteBackground;
+  background: PaletteBackground; // TODO: これもなくすかどうにかする
   divider: string;
   icon: PaletteIcon;
   action: PaletteAction;
 };
 
 export const palette: Palette = {
-  white: colors.basic[50] as string, // TODO
+  white: colors.basic[50] as string, // TODO: type safe に
   black: colors.basic[900],
   primary: {
     deepDark: colors.blue[700],
@@ -127,6 +127,7 @@ export const palette: Palette = {
     hint: colors.basic[400],
     white: "#FFFFFF",
   },
+  // primary, secondary で代用する？
   background: {
     default: "#FFFFFF",
     dark: colors.blue[40] as string, // TODO

@@ -40,6 +40,7 @@ export const fontSize: { [key in FontSize]: number } = {
 
 const getColor = (key: ColorType | string, theme: Theme) => {
   switch (key) {
+    // case: initial だったら color: initial とか？
     case "initial":
       return theme.palette.black;
     case "primary":
