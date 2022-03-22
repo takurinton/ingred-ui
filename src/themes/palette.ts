@@ -79,11 +79,11 @@ export const palette: Palette = {
     highlight: colors.blue[100],
   },
   secondary: {
-    deepDark: colors.blue[700],
-    dark: colors.blue[600],
-    main: colors.blue[500],
-    light: colors.blue[200],
-    highlight: colors.blue[100],
+    deepDark: colors.basic[700],
+    dark: colors.basic[600],
+    main: colors.basic[500],
+    light: colors.basic[200],
+    highlight: colors.basic[100],
   },
   success: {
     deepDark: colors.green[700],

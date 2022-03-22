@@ -39,7 +39,7 @@ const getContainerColorStyles = (
   primary: {
     normal: {
       background: theme.palette.primary.main,
-      color: theme.palette.text.primary,
+      color: "inherit", // これだと黒になるからちょっと考える
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
@@ -62,7 +62,7 @@ const getContainerColorStyles = (
   secondary: {
     normal: {
       background: theme.palette.secondary.main,
-      color: theme.palette.text.secondary,
+      color: "inherit",
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
