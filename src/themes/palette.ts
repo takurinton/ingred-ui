@@ -159,7 +159,7 @@ export const palette: Palette = {
     selected: "rgba(0, 0, 0, 0.08)",
     selectedOpacity: 0.08,
     disabled: "rgba(0, 0, 0, 0.26)",
-    disabledBackground: "rgba(0, 0, 0, 0.12)",
+    disabledBackground: colors.basic[200],
     disabledOpacity: 0.08,
     focus: "rgba(0, 0, 0, 0.12)",
     focusOpacity: 0.12,
