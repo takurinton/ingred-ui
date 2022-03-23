@@ -53,6 +53,7 @@ const CreatableSelect = <T,>(
   };
 
   return (
+    // Select/styled.ts からとるな
     <Styled.Container ref={ref} minWidth={minWidth} isDisabled={isDisabled}>
       <ReactCreatableSelect<OptionType<T>, boolean, GroupBase<OptionType<T>>>
         isClearable

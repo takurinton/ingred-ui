@@ -66,6 +66,7 @@ export const Span = styled.span<{
   }
   ${Checkbox}:disabled + &::before {
     border: 1px solid ${({ theme }) => theme.palette.divider};
+    /* TODO: background-color はどこかで定義する */
     background-color: ${({ theme }) => theme.palette.gray.light};
   }
   ${Checkbox}:disabled:checked + &::before {
