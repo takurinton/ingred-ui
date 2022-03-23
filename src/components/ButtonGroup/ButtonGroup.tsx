@@ -13,6 +13,8 @@ export type ButtonGroupProps = React.ComponentPropsWithoutRef<"div"> & {
 
 const buttonSize: Record<GroupButtonSize, { minWidth: string }> = {
   small: {
+    // TODO: これもできれば定数で
+    // createTheme 関数に初期値入れられるようにした方がいいかも？
     minWidth: "63px",
   },
   medium: {
