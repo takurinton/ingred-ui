@@ -64,6 +64,7 @@ export type Palette = {
   text: PaletteText;
   background: PaletteBackground; // TODO: これもなくすかどうにかする
   divider: string;
+  border: string; // TODO: PaletteColor
   icon: PaletteIcon;
   action: PaletteAction;
 };
@@ -141,6 +142,14 @@ export const palette: Palette = {
     fill: colors.basic[700],
     line: colors.basic[600],
   },
+  border: colors.basic[200],
+  // border: {
+  //   deepDark: colors.basic[600],
+  //   dark: colors.basic[500],
+  //   main: colors.basic[300],
+  //   light: colors.basic[200],
+  //   highlight: colors.basic[100],
+  // },
   // WIP
   action: {
     active: "rgba(0, 0, 0, 0.54)",
