@@ -137,11 +137,7 @@ export const palette: Palette = {
     hint: colors.blue[50] as string, // TODO
   },
   divider: colors.basic[400],
-  icon: {
-    active: colors.blue[500],
-    fill: colors.basic[700],
-    line: colors.basic[600],
-  },
+  // WIP: divider にバリエーションを増やす方式でもいいかもしれない
   border: colors.basic[200],
   // border: {
   //   deepDark: colors.basic[600],
@@ -150,6 +146,11 @@ export const palette: Palette = {
   //   light: colors.basic[200],
   //   highlight: colors.basic[100],
   // },
+  icon: {
+    active: colors.blue[500],
+    fill: colors.basic[700],
+    line: colors.basic[600],
+  },
   // WIP
   action: {
     active: "rgba(0, 0, 0, 0.54)",
