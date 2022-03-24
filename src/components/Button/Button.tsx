@@ -43,7 +43,7 @@ const getContainerColorStyles = (
   primary: {
     normal: {
       background: theme.palette.primary.main,
-      color: getContrastText(theme.palette.primary.main), // これだと黒になるからちょっと考える
+      color: getContrastText(theme.palette.primary.main),
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
