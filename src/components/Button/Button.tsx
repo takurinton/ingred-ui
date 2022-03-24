@@ -6,6 +6,10 @@ import * as Styled from "./styled";
 import { Theme, useTheme } from "../../themes";
 import { hexToRgba } from "../../utils/hexToRgba";
 
+// WIP
+// inspired by mui getContrastText
+import { getContrastText } from "../../utils/getContrastText";
+
 export type ButtonSize = "small" | "medium" | "large";
 export type ButtonColor = "primary" | "secondary" | "danger" | "clear";
 
@@ -39,7 +43,7 @@ const getContainerColorStyles = (
   primary: {
     normal: {
       background: theme.palette.primary.main,
-      color: "inherit", // これだと黒になるからちょっと考える
+      color: getContrastText(theme.palette.primary.main), // これだと黒になるからちょっと考える
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
