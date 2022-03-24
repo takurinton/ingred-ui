@@ -66,7 +66,7 @@ const getContainerColorStyles = (
   secondary: {
     normal: {
       background: theme.palette.secondary.main,
-      color: "inherit",
+      color: getContrastText(theme.palette.secondary.main),
       boxShadow: `0px -2px ${hexToRgba(
         theme.palette.black,
         theme.shadows[1],
