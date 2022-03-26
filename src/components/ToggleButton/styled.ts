@@ -30,10 +30,10 @@ export const ToggleButton = styled.span<{ active: boolean; disabled: boolean }>`
     ${({ active, disabled, theme }) =>
       active && !disabled ? theme.palette.primary.dark : theme.palette.divider};
   box-shadow: ${({ theme }) =>
-    `0 -2px ${hexToRgba(theme.palette.black, 0.16)} inset, 0px 1px ${hexToRgba(
+    `0 -2px ${hexToRgba(
       theme.palette.black,
-      0.08,
-    )}`};
+      theme.shadows[1],
+    )} inset, 0px 1px ${hexToRgba(theme.palette.black, theme.shadows[0])}`};
   transition: all 0.3s ease-in-out;
 `;
 
@@ -85,7 +85,7 @@ export const Label = styled.label<LabelProps>`
       active && !disabled ? theme.palette.primary.main : theme.palette.divider};
   border-radius: 56px;
   box-shadow: ${({ theme }) =>
-    `0 2px ${hexToRgba(theme.palette.black, 0.08)} inset`};
+    `0 2px ${hexToRgba(theme.palette.black, theme.shadows[0])} inset`};
   transition: all 0.3s ease-in-out;
 
   ${({ active }) =>
