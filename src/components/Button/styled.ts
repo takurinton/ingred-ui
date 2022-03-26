@@ -38,8 +38,8 @@ export const ButtonContainer = styled(BaseButton)<ContainerProps>`
     disabled
       ? `0px -2px ${hexToRgba(
           theme.palette.black,
-          0.16,
-        )} inset, 0px 2px ${hexToRgba(theme.palette.black, 0.08)}`
+          theme.shadows[1],
+        )} inset, 0px 2px ${hexToRgba(theme.palette.black, theme.shadows[0])}`
       : normal.boxShadow};
   transition: background 0.3s;
 

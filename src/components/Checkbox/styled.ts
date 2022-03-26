@@ -52,10 +52,10 @@ export const Span = styled.span<{
         error ? theme.palette.danger.main : theme.palette.divider};
     border-radius: ${({ theme }) => theme.radius * 0.5}px;
     box-shadow: ${({ theme }) =>
-      `0 -2px ${hexToRgba(theme.palette.black, 0.16)} inset, 0 2px ${hexToRgba(
+      `0 -2px ${hexToRgba(
         theme.palette.black,
-        0.08,
-      )}`};
+        theme.shadows[1],
+      )} inset, 0 2px ${hexToRgba(theme.palette.black, theme.shadows[0])}`};
     background-color: ${({ theme }) => theme.palette.background.default};
     margin-right: ${({ hasChild, theme }) =>
       hasChild ? `${theme.spacing / 2}px` : "auto"};
@@ -66,6 +66,7 @@ export const Span = styled.span<{
   }
   ${Checkbox}:disabled + &::before {
     border: 1px solid ${({ theme }) => theme.palette.divider};
+    /* TODO: background-color はどこかで定義する */
     background-color: ${({ theme }) => theme.palette.gray.light};
   }
   ${Checkbox}:disabled:checked + &::before {

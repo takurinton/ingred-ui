@@ -31,22 +31,45 @@ export type PaletteIcon = {
   line: string;
 };
 
+export type TextColor = {
+  primary: string;
+  secondary: string;
+  disable: string;
+};
+
+export type PaletteAction = {
+  active: string;
+  hover: string;
+  selected: string;
+  selectedOpacity: number;
+  disabled: string;
+  disabledBackground: string;
+  focus: string;
+  focusOpacity: number;
+  activeBackground: string;
+  hoverBackground: string;
+};
+
 export type Palette = {
   white: string;
   black: string;
   primary: PaletteColor;
+  secondary: PaletteColor;
   success: PaletteColor;
   warning: PaletteColor;
   danger: PaletteColor;
-  gray: PaletteColor;
+  clear: PaletteColor;
+  gray: PaletteColor; // TODO: なくすかどうにかする
   text: PaletteText;
-  background: PaletteBackground;
+  background: PaletteBackground; // TODO: これもなくすかどうにかする
   divider: string;
+  border: string; // TODO: PaletteColor
   icon: PaletteIcon;
+  action: PaletteAction;
 };
 
 export const palette: Palette = {
-  white: colors.basic[50] as string, // TODO
+  white: colors.basic[50] as string, // TODO: type safe に
   black: colors.basic[900],
   primary: {
     deepDark: colors.blue[700],
@@ -54,6 +77,13 @@ export const palette: Palette = {
     main: colors.blue[500],
     light: colors.blue[200],
     highlight: colors.blue[100],
+  },
+  secondary: {
+    deepDark: colors.basic[700],
+    dark: colors.basic[600],
+    main: colors.basic[500],
+    light: colors.basic[200],
+    highlight: colors.basic[100],
   },
   success: {
     deepDark: colors.green[700],
@@ -76,6 +106,13 @@ export const palette: Palette = {
     light: colors.red[300],
     highlight: colors.red[100],
   },
+  clear: {
+    deepDark: colors.basic[600],
+    dark: colors.basic[500],
+    main: colors.basic[300],
+    light: colors.basic[200],
+    highlight: colors.basic[100],
+  },
   gray: {
     deepDark: colors.basic[600],
     dark: colors.basic[500],
@@ -84,12 +121,14 @@ export const palette: Palette = {
     highlight: colors.basic[100],
   },
   text: {
-    primary: colors.blue[500],
+    // primary: colors.basic[900],
+    primary: "rgba(0, 0, 0, 0.87)",
     secondary: colors.basic[700],
     disabled: colors.basic[400],
     hint: colors.basic[400],
     white: "#FFFFFF",
   },
+  // primary, secondary で代用する？
   background: {
     default: "#FFFFFF",
     dark: colors.blue[40] as string, // TODO
@@ -97,10 +136,32 @@ export const palette: Palette = {
     hint: colors.blue[50] as string, // TODO
   },
   divider: colors.basic[400],
+  // WIP: divider にバリエーションを増やす方式でもいいかもしれない
+  border: colors.basic[200],
+  // border: {
+  //   deepDark: colors.basic[600],
+  //   dark: colors.basic[500],
+  //   main: colors.basic[300],
+  //   light: colors.basic[200],
+  //   highlight: colors.basic[100],
+  // },
   icon: {
     active: colors.blue[500],
     fill: colors.basic[700],
     line: colors.basic[600],
+  },
+  // WIP
+  action: {
+    active: "rgba(0, 0, 0, 0.54)",
+    hover: "rgba(0, 0, 0, 0.04)",
+    selected: "rgba(0, 0, 0, 0.08)",
+    selectedOpacity: 0.08,
+    disabled: "rgba(0, 0, 0, 0.26)",
+    disabledBackground: colors.basic[200],
+    focus: "rgba(0, 0, 0, 0.12)",
+    focusOpacity: 0.12,
+    activeBackground: colors.basic[300],
+    hoverBackground: colors.basic[200],
   },
 };
 

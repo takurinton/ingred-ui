@@ -11,13 +11,14 @@ export type CardProps = SpacerProps &
     minWidth?: Property.MinWidth;
   };
 
+// background 考える
 const Card = styled.div<CardProps>`
   border-radius: ${({ theme }) => theme.radius}px;
   background-color: ${({ theme }) => theme.palette.background.default};
   width: ${({ width }) => width || "auto"};
   min-width: ${({ minWidth }) => minWidth || "auto"};
   max-width: ${({ maxWidth }) => maxWidth || "auto"};
-  border: 1px solid ${({ theme }) => theme.palette.gray.light};
+  border: 1px solid ${({ theme }) => theme.palette.border};
   ${spacer}
   ${flexbox}
 `;

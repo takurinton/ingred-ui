@@ -49,8 +49,8 @@ const Indicator = styled.div<IndicatorProps>`
   box-shadow: ${({ theme }) =>
     `0px -2px ${hexToRgba(
       theme.palette.black,
-      0.16,
-    )} inset, 0px 2px ${hexToRgba(theme.palette.black, 0.08)}`};
+      theme.shadows[1],
+    )} inset, 0px 2px ${hexToRgba(theme.palette.black, theme.shadows[0])}`};
   transition: all 0.3s ease;
   background: ${({ theme }) => theme.palette.background.default};
 

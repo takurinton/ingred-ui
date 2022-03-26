@@ -1,5 +1,5 @@
 import { Palette, createPalette } from "./palette";
-import { Radius, Space, Depth } from "../styles";
+import { Radius, Space, Depth, Shadows } from "../styles";
 import { DepthOptions, depth } from "../styles/depth";
 import { deepmerge } from "../utils/deepmerge";
 import { DeepPartial } from "../types";
@@ -9,6 +9,7 @@ export type ThemeOptions = {
   spacing?: number;
   radius?: number;
   depth?: DepthOptions;
+  shadows?: number[];
 };
 
 export type Theme = {
@@ -16,6 +17,7 @@ export type Theme = {
   spacing: number;
   radius: number;
   depth: Depth;
+  shadows: number[];
 };
 
 export function createTheme(options: ThemeOptions = {}): Theme {
@@ -23,16 +25,17 @@ export function createTheme(options: ThemeOptions = {}): Theme {
     palette: paletteInput = {},
     spacing: spacingInput,
     radius: radiusInput,
+    shadows: shadowInput,
     ...other
   } = options;
 
   const palette = createPalette(paletteInput);
   const spacing = spacingInput || Space;
   const radius = radiusInput || Radius;
+  const shadows = shadowInput || Shadows;
 
-  const theme = deepmerge({ palette, spacing, depth, radius }, other);
-
-  return theme;
+  const theme = deepmerge({ palette, spacing, depth, radius, shadows }, other);
+  return { ...theme };
 }
 
 declare module "styled-components" {

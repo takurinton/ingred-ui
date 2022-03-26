@@ -10,13 +10,13 @@ import { colors } from "../../styles/color";
 const getNormalBackgroundColor = (theme: Theme) => ({
   primary: theme.palette.background.hint,
   warning: theme.palette.danger.highlight,
-  disabled: theme.palette.gray.light,
+  disabled: theme.palette.action.disabledBackground,
 });
 
 const getHoverBackgroundColor = (theme: Theme) => ({
   primary: theme.palette.primary.highlight,
   warning: colors.red[200],
-  disabled: theme.palette.gray.light,
+  disabled: theme.palette.action.disabledBackground,
 });
 
 const getTextColor = (theme: Theme) => ({

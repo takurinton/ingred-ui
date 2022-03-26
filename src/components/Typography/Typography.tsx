@@ -6,7 +6,9 @@ import { useTheme } from "../../themes/useTheme";
 export type ColorType =
   | "initial"
   | "primary"
+  | "textPrimary"
   | "secondary"
+  | "textSecondary"
   | "disabled"
   | "hint"
   | "white";
@@ -38,13 +40,23 @@ export const fontSize: { [key in FontSize]: number } = {
   xxxxxxxl: 40,
 };
 
+/*
+  textPrimary, textSecondary あたりはここを参考
+  https://github.com/mui/material-ui/blob/dd411b017ea7504a14a16821b694ac6aa01d9b6d/packages/mui-material/src/Typography/Typography.js#L77-L83
+
+  theme.palette.text.primary を black にしたかった、基本的にはここともう1箇所(storybook)でしか参照されていないので変えちゃう。
+*/
 const getColor = (key: ColorType | string, theme: Theme) => {
   switch (key) {
     case "initial":
-      return theme.palette.black;
-    case "primary":
+      return "initial";
+    case "textPrimary":
       return theme.palette.text.primary;
+    case "primary":
+      return theme.palette.primary.main;
     case "secondary":
+      return theme.palette.secondary.main;
+    case "textSecondary":
       return theme.palette.text.secondary;
     case "disabled":
       return theme.palette.text.disabled;
