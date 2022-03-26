@@ -40,15 +40,14 @@ export type TextColor = {
 export type PaletteAction = {
   active: string;
   hover: string;
-  hoverOpacity: number;
   selected: string;
   selectedOpacity: number;
   disabled: string;
   disabledBackground: string;
-  disabledOpacity: number;
   focus: string;
   focusOpacity: number;
-  activatedOpacity: number;
+  activeBackground: string;
+  hoverBackground: string;
 };
 
 export type Palette = {
@@ -155,15 +154,14 @@ export const palette: Palette = {
   action: {
     active: "rgba(0, 0, 0, 0.54)",
     hover: "rgba(0, 0, 0, 0.04)",
-    hoverOpacity: 0.04,
     selected: "rgba(0, 0, 0, 0.08)",
     selectedOpacity: 0.08,
     disabled: "rgba(0, 0, 0, 0.26)",
     disabledBackground: colors.basic[200],
-    disabledOpacity: 0.08,
     focus: "rgba(0, 0, 0, 0.12)",
     focusOpacity: 0.12,
-    activatedOpacity: 0.16,
+    activeBackground: colors.basic[300],
+    hoverBackground: colors.basic[200],
   },
 };
 
