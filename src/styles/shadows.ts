@@ -10,6 +10,8 @@ function createShadow(...px: number[]) {
   ].join(",");
 }
 
+// material-components-web を参考にするパターン
+// https://github.com/material-components/material-components-web/blob/be8747f94574669cb5e7add1a7c54fa41a89cec7/packages/mdc-elevation/_variables.scss
 export const Shadows = [
   "none",
   createShadow(0, 2, 1, -1, 0, 1, 1, 0, 0, 1, 3, 0),
@@ -36,4 +38,21 @@ export const Shadows = [
   createShadow(0, 10, 14, -6, 0, 22, 35, 3, 0, 8, 42, 7),
   createShadow(0, 11, 14, -7, 0, 23, 36, 3, 0, 9, 44, 8),
   createShadow(0, 11, 15, -7, 0, 24, 38, 3, 0, 9, 46, 8),
+];
+
+// 列挙するパターン(全然まだ全部追加してない)
+export const shadows = [
+  // none
+  "none",
+  // hexToRgba(theme.palette.gray.main, theme.palette.action.shadowOpacity.dark)
+  "0px 4px #D1D5DA 0.24",
+  // DayPickerRangeController
+  "0px 0px 16px #041c3315",
+  // hexToRgba(theme.palette.gray.main, 0.4)
+  "0px 0px 16px #D1D5DA 0.4",
+  // 8px = spacing * 2px hexToRgba(theme.palette.gray.dark, 0,33)
+  "0px 0px 8px #D1D5DA 0.33",
+  // 0px -2px ${hexToRgba(theme.palette.action.shadow, theme.palette.action.shadowOpacity.main)} inset, 0px 2px ${hexToRgba(theme.palette.action.shadow,theme.palette.action.shadowOpacity.light)
+  "0px -2px #041C33 0.16, inset 0px 2px #041C33 0.08",
+  // ... and more
 ];
