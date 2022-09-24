@@ -18,3 +18,6 @@ jobs:
         run: make -f ci.mk lint
       - name: test
         run: make -f ci.mk test
+      # experimental
+      - name: build
+        run: make -f ci.mk build
