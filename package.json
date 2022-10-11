@@ -38,7 +38,7 @@
     "styled-components": ">= 5.X"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "22.0.0",
+    "@rollup/plugin-commonjs": "23.0.0",
     "@rollup/plugin-node-resolve": "14.1.0",
     "@rollup/plugin-typescript": "8.5.0",
     "@rollup/plugin-url": "7.0.0",
