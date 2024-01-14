@@ -3,29 +3,29 @@
 exports[`Accordion component testing Accordion 1`] = `
 <DocumentFragment>
   <div
-    class="sc-dkzDqf fEGkmI"
+    class="sc-dmyCSP boCXZE"
   >
     <div
       aria-controls="accordion-content-Accordion Title"
       aria-expanded="false"
-      class="sc-gsnTZi sc-hKMtZM jUiVsm jBPBwg"
+      class="sc-guDLey sc-hLQSwg kaqXVj hUAmYz"
       display="flex"
       role="button"
       tabindex="0"
     >
       <div
-        class="sc-eCYdqJ PzAcW"
+        class="sc-eDLKkx kAlcwl"
       >
         Accordion Title
       </div>
       <div
-        class="sc-iBkjds eeHkwx"
+        class="sc-iBdnpw bVQOxU"
       >
         <div
-          class="sc-gKXOVf gIbCPD"
+          class="sc-gLLuof jAqgfx"
         >
           <span
-            class="sc-bczRLJ gJuzRf"
+            class="sc-beySPh fgKFxv"
             size="18"
           >
             <svg
@@ -47,7 +47,7 @@ exports[`Accordion component testing Accordion 1`] = `
       </div>
     </div>
     <div
-      class="sc-ftvSup hGExZo"
+      class="sc-fsYfdN eNOaCc"
       height="0"
     >
       Accordion Content
@@ -59,30 +59,30 @@ exports[`Accordion component testing Accordion 1`] = `
 exports[`Accordion component testing Disable Accordion 1`] = `
 <DocumentFragment>
   <div
-    class="sc-dkzDqf fEGkmI"
+    class="sc-dmyCSP boCXZE"
   >
     <div
       aria-controls="accordion-content-Accordion Title"
       aria-expanded="false"
-      class="sc-gsnTZi sc-hKMtZM dfqrSd dGjGHA"
+      class="sc-guDLey sc-hLQSwg iWLnSc koZVsj"
       disabled=""
       display="flex"
       role="button"
       tabindex="-1"
     >
       <div
-        class="sc-eCYdqJ PzAcW"
+        class="sc-eDLKkx kAlcwl"
       >
         Accordion Title
       </div>
       <div
-        class="sc-iBkjds eeHkwx"
+        class="sc-iBdnpw bVQOxU"
       >
         <div
-          class="sc-gKXOVf gIbCPD"
+          class="sc-gLLuof jAqgfx"
         >
           <span
-            class="sc-bczRLJ gJuzRf"
+            class="sc-beySPh fgKFxv"
             size="18"
           >
             <svg
@@ -104,7 +104,7 @@ exports[`Accordion component testing Disable Accordion 1`] = `
       </div>
     </div>
     <div
-      class="sc-ftvSup hGExZo"
+      class="sc-fsYfdN eNOaCc"
       height="0"
     >
       Accordion Content

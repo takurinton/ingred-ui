@@ -3,13 +3,14 @@
 exports[`TextField component testing TextField 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ"
+    class="sc-beySPh"
   >
     <div
-      class="sc-gsnTZi iTnnSW"
+      class="sc-guDLey gAEbrn"
     >
       <input
-        class="sc-jSMfEi cfVjjk"
+        class="sc-jTQCzO cautnG"
+        resize="both"
       />
     </div>
   </div>
@@ -19,20 +20,21 @@ exports[`TextField component testing TextField 1`] = `
 exports[`TextField component testing TextField passward 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ"
+    class="sc-beySPh"
   >
     <div
-      class="sc-gsnTZi jTsXKF"
+      class="sc-guDLey dUAIjk"
     >
       <input
-        class="sc-jSMfEi cfVjjk"
+        class="sc-jTQCzO cautnG"
+        resize="both"
         type="password"
       />
       <div
-        class="sc-dkzDqf sc-eCYdqJ ipdCxW lePLkB"
+        class="sc-dmyCSP sc-eDLKkx gcKtSw kgSJdo"
       >
         <span
-          class="sc-gKXOVf kFgTzX"
+          class="sc-gLLuof hiBJch"
           size="18"
         >
           <svg
@@ -58,16 +60,16 @@ exports[`TextField component testing TextField passward 1`] = `
 exports[`TextField component testing TextField with icon 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ"
+    class="sc-beySPh"
   >
     <div
-      class="sc-gsnTZi sAWNx"
+      class="sc-guDLey hlaMqI"
     >
       <div
-        class="sc-dkzDqf sc-hKMtZM ipdCxW eHVwRj"
+        class="sc-dmyCSP sc-hLQSwg gcKtSw jUgbxM"
       >
         <span
-          class="sc-gKXOVf kFgTzX"
+          class="sc-gLLuof hiBJch"
           size="18"
         >
           <svg
@@ -87,7 +89,8 @@ exports[`TextField component testing TextField with icon 1`] = `
         </span>
       </div>
       <input
-        class="sc-jSMfEi cfVjjk"
+        class="sc-jTQCzO cautnG"
+        resize="both"
       />
     </div>
   </div>

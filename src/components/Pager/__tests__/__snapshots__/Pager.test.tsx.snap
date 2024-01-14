@@ -3,17 +3,18 @@
 exports[`Pager component testing Pager 1`] = `
 <DocumentFragment>
   <div
-    class="sc-jSMfEi kmsKij"
+    alignitems="center"
+    class="sc-jTQCzO irwFmu"
     display="flex"
   >
     <button
       aria-label="arrow_left"
-      class="sc-dkzDqf irbZCc"
+      class="sc-dmyCSP cMBmVu"
       disabled=""
       type="button"
     >
       <span
-        class="sc-hKMtZM gLnfjV"
+        class="sc-hLQSwg fgIvPU"
         size="18"
       >
         <svg
@@ -34,90 +35,108 @@ exports[`Pager component testing Pager 1`] = `
       </span>
     </button>
     <button
-      class="sc-bczRLJ hFtSAg"
+      class="sc-beySPh gdcgFu"
       disabled=""
       type="button"
     >
       <span
-        class="sc-gsnTZi hDkACN"
+        align="left"
+        class="sc-guDLey cBBoTv"
         color="#FFFFFF"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         1
       </span>
     </button>
     <button
-      class="sc-bczRLJ ereHpM"
+      class="sc-beySPh fZxmXy"
       type="button"
     >
       <span
-        class="sc-gsnTZi gELrhb"
+        align="left"
+        class="sc-guDLey gsmLzV"
         color="#0B82F4"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         2
       </span>
     </button>
     <button
-      class="sc-bczRLJ ereHpM"
+      class="sc-beySPh fZxmXy"
       type="button"
     >
       <span
-        class="sc-gsnTZi gELrhb"
+        align="left"
+        class="sc-guDLey gsmLzV"
         color="#0B82F4"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         3
       </span>
     </button>
     <button
-      class="sc-bczRLJ ereHpM"
+      class="sc-beySPh fZxmXy"
       type="button"
     >
       <span
-        class="sc-gsnTZi gELrhb"
+        align="left"
+        class="sc-guDLey gsmLzV"
         color="#0B82F4"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         4
       </span>
     </button>
     <button
-      class="sc-bczRLJ ereHpM"
+      class="sc-beySPh fZxmXy"
       type="button"
     >
       <span
-        class="sc-gsnTZi gELrhb"
+        align="left"
+        class="sc-guDLey gsmLzV"
         color="#0B82F4"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         5
       </span>
     </button>
     <div
-      class="sc-eCYdqJ bvZTgU"
+      class="sc-eDLKkx hsqHBb"
     >
       ...
     </div>
     <button
-      class="sc-bczRLJ ereHpM"
+      class="sc-beySPh fZxmXy"
       type="button"
     >
       <span
-        class="sc-gsnTZi gELrhb"
+        align="left"
+        class="sc-guDLey gsmLzV"
         color="#0B82F4"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         10
       </span>
     </button>
     <button
       aria-label="arrow_right"
-      class="sc-dkzDqf dWTLA"
+      class="sc-dmyCSP cqMFXi"
       type="button"
     >
       <span
-        class="sc-hKMtZM gLnfjV"
+        class="sc-hLQSwg fgIvPU"
         size="18"
       >
         <svg

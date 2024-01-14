@@ -3,80 +3,114 @@
 exports[`MenuList component testing MenuList splited 1`] = `
 <DocumentFragment>
   <div
-    class="sc-gsnTZi bHzWde"
+    class="sc-guDLey cEicFc"
+    maxheight="none"
   >
     <div
-      class="sc-dkzDqf krxAQa"
+      class="sc-dmyCSP eGXLoQ"
     >
       <p
-        class="sc-bczRLJ JfGKz"
+        align="left"
+        class="sc-beySPh ktQAwU"
         color="#596978"
         font-size="12px"
+        lineheight="1.4"
+        weight="bold"
       >
         Title
       </p>
     </div>
     <div
-      class="sc-jSMfEi jMMyQj"
+      active="[object Object]"
+      class="sc-jTQCzO jHZsqo"
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <p
-        class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh gYdMCB sc-eDLKkx"
         color="#041C33"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Save
       </p>
     </div>
     <hr
-      class="sc-gKXOVf iCDnFu"
+      class="sc-gLLuof cBLtSu"
       color="#E2E8EA"
+      mx="2"
+      my="1"
       orientation="horizontal"
     />
     <div
-      class="sc-jSMfEi jMMyQj"
+      active="[object Object]"
+      class="sc-jTQCzO jHZsqo"
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <p
-        class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh gYdMCB sc-eDLKkx"
         color="#041C33"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Save and execute
       </p>
     </div>
     <div
-      class="sc-jSMfEi bAvCPi"
+      active="[object Object]"
+      class="sc-jTQCzO hFFeAB"
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <p
-        class="sc-bczRLJ duOoMD sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh JXSGA sc-eDLKkx"
         color="#EB0A4E"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Save as draft
       </p>
     </div>
     <div
-      class="sc-jSMfEi kMvEJY"
+      active="[object Object]"
+      class="sc-jTQCzO kElexL"
       disabled=""
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <p
-        class="sc-bczRLJ iySyTU sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh hmvkRH sc-eDLKkx"
         color="#B3BAC1"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Cancel
       </p>
     </div>
     <div
-      class="sc-jSMfEi jMMyQj"
+      active="[object Object]"
+      class="sc-jTQCzO jHZsqo"
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <div
-        class="sc-ftvSup espOCS"
+        class="sc-fsYfdN cFyDfm"
+        mr="1"
       >
         <div
-          class="sc-hKMtZM cvHByS"
+          class="sc-hLQSwg bkRYPv"
         >
           <span
-            class="sc-iBkjds kTxGwl"
+            class="sc-iBdnpw cWhIRg"
             size="18"
           >
             <svg
@@ -92,29 +126,38 @@ exports[`MenuList component testing MenuList splited 1`] = `
         </div>
       </div>
       <p
-        class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh gYdMCB sc-eDLKkx"
         color="#041C33"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Save
       </p>
     </div>
     <hr
-      class="sc-gKXOVf iCDnFu"
+      class="sc-gLLuof cBLtSu"
       color="#E2E8EA"
+      mx="2"
+      my="1"
       orientation="horizontal"
     />
     <div
-      class="sc-jSMfEi jMMyQj"
+      active="[object Object]"
+      class="sc-jTQCzO jHZsqo"
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <div
-        class="sc-ftvSup espOCS"
+        class="sc-fsYfdN cFyDfm"
+        mr="1"
       >
         <div
-          class="sc-hKMtZM cvHByS"
+          class="sc-hLQSwg bkRYPv"
         >
           <span
-            class="sc-iBkjds kTxGwl"
+            class="sc-iBdnpw cWhIRg"
             size="18"
           >
             <svg
@@ -130,24 +173,31 @@ exports[`MenuList component testing MenuList splited 1`] = `
         </div>
       </div>
       <p
-        class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh gYdMCB sc-eDLKkx"
         color="#041C33"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Save and execute
       </p>
     </div>
     <div
-      class="sc-jSMfEi bAvCPi"
+      active="[object Object]"
+      class="sc-jTQCzO hFFeAB"
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <div
-        class="sc-ftvSup espOCS"
+        class="sc-fsYfdN cFyDfm"
+        mr="1"
       >
         <div
-          class="sc-hKMtZM cvHByS"
+          class="sc-hLQSwg bkRYPv"
         >
           <span
-            class="sc-iBkjds kTxGwl"
+            class="sc-iBdnpw cWhIRg"
             size="18"
           >
             <svg
@@ -163,26 +213,33 @@ exports[`MenuList component testing MenuList splited 1`] = `
         </div>
       </div>
       <p
-        class="sc-bczRLJ duOoMD sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh JXSGA sc-eDLKkx"
         color="#EB0A4E"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Save as draft
       </p>
     </div>
     <div
-      class="sc-jSMfEi kMvEJY"
+      active="[object Object]"
+      class="sc-jTQCzO kElexL"
       disabled=""
+      hover="[object Object]"
+      normal="[object Object]"
     >
       <div
-        class="sc-ftvSup espOCS"
+        class="sc-fsYfdN cFyDfm"
+        mr="1"
       >
         <div
-          class="sc-hKMtZM kgMPvs"
+          class="sc-hLQSwg fNeGud"
           disabled=""
         >
           <span
-            class="sc-iBkjds kTxGwl"
+            class="sc-iBdnpw cWhIRg"
             size="18"
           >
             <svg
@@ -198,9 +255,12 @@ exports[`MenuList component testing MenuList splited 1`] = `
         </div>
       </div>
       <p
-        class="sc-bczRLJ iySyTU sc-eCYdqJ"
+        align="left"
+        class="sc-beySPh hmvkRH sc-eDLKkx"
         color="#B3BAC1"
         font-size="13px"
+        lineheight="1.4"
+        weight="normal"
       >
         Cancel
       </p>

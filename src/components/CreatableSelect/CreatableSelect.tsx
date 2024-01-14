@@ -9,6 +9,7 @@ import { getOverrideStyles } from "../Select/Select";
 import { DropdownIndicator } from "../Select/internal/DropdownIndicator";
 import { ClearIndicator } from "../Select/internal/ClearIndicator";
 import { MultiValueRemove } from "../Select/internal/MultiValueRemove";
+import { ReactSelectMenuList } from "../Select/internal/ReactSelectMenuList";
 
 export type CreatableSelectProps<T> = {
   minWidth?: string;
@@ -69,7 +70,7 @@ const CreatableSelect = <T,>(
           ClearIndicator,
           IndicatorSeparator: null,
           MultiValueRemove,
-          MenuList: Styled.ReactSelectMenuList,
+          MenuList: ReactSelectMenuList,
           ...rest.components,
         }}
         onInputChange={handleInputChange}

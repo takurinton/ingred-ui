@@ -3,31 +3,37 @@
 exports[`DualListBox component testing DualListBox 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ kuSbTi"
+    class="sc-beySPh iJcWMs"
   >
     <ul
-      class="sc-jqUVSM bBFcLq"
+      class="sc-jsEeTM hQaZnA"
     />
     <hr
-      class="sc-fLlhyt cCPNfc"
+      class="sc-fLseNd dUhxpB"
       color="#B3BAC1"
       orientation="vertical"
     />
     <div
-      class="sc-bjUoiL hkPZz"
+      class="sc-blmEgr dnjMBb"
     >
       <div
-        class="sc-idiyUo bKIXon"
+        class="sc-ifyrAs fdWRu"
       >
         <p
-          class="sc-fEOsli fayFCh"
+          align="left"
+          class="sc-fHejqy jScsaH"
           color="#041C33"
           font-size="13px"
+          lineheight="1.4"
+          weight="bold"
         >
           <span
-            class="sc-fEOsli jPgBVF"
+            align="left"
+            class="sc-fHejqy hzmlXz"
             color="#0B82F4"
             font-size="13px"
+            lineheight="1.4"
+            weight="bold"
           >
             0 
           </span>
@@ -35,7 +41,7 @@ exports[`DualListBox component testing DualListBox 1`] = `
         </p>
       </div>
       <ul
-        class="sc-dIouRR"
+        class="sc-dJGMql"
       />
     </div>
   </div>
@@ -45,33 +51,37 @@ exports[`DualListBox component testing DualListBox 1`] = `
 exports[`DualListBox component testing DualListBox candidateItems 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ kuSbTi"
+    class="sc-beySPh iJcWMs"
   >
     <ul
-      class="sc-jqUVSM bBFcLq"
+      class="sc-jsEeTM hQaZnA"
     >
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 foo
               </p>
@@ -80,27 +90,31 @@ exports[`DualListBox component testing DualListBox candidateItems 1`] = `
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 bar
               </p>
@@ -109,27 +123,31 @@ exports[`DualListBox component testing DualListBox candidateItems 1`] = `
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 hoge
               </p>
@@ -138,27 +156,31 @@ exports[`DualListBox component testing DualListBox candidateItems 1`] = `
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie hlbDuP dcUJGp"
+        class="sc-kFCroH sc-irLvIq dMFoFL dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 fuga
               </p>
@@ -168,25 +190,31 @@ exports[`DualListBox component testing DualListBox candidateItems 1`] = `
       </li>
     </ul>
     <hr
-      class="sc-fLlhyt cCPNfc"
+      class="sc-fLseNd dUhxpB"
       color="#B3BAC1"
       orientation="vertical"
     />
     <div
-      class="sc-bjUoiL hkPZz"
+      class="sc-blmEgr dnjMBb"
     >
       <div
-        class="sc-idiyUo bKIXon"
+        class="sc-ifyrAs fdWRu"
       >
         <p
-          class="sc-fEOsli fayFCh"
+          align="left"
+          class="sc-fHejqy jScsaH"
           color="#041C33"
           font-size="13px"
+          lineheight="1.4"
+          weight="bold"
         >
           <span
-            class="sc-fEOsli jPgBVF"
+            align="left"
+            class="sc-fHejqy hzmlXz"
             color="#0B82F4"
             font-size="13px"
+            lineheight="1.4"
+            weight="bold"
           >
             0 
           </span>
@@ -194,7 +222,7 @@ exports[`DualListBox component testing DualListBox candidateItems 1`] = `
         </p>
       </div>
       <ul
-        class="sc-dIouRR"
+        class="sc-dJGMql"
       />
     </div>
   </div>
@@ -204,34 +232,38 @@ exports[`DualListBox component testing DualListBox candidateItems 1`] = `
 exports[`DualListBox component testing DualListBox candidateItems and selectedItems 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ kuSbTi"
+    class="sc-beySPh iJcWMs"
   >
     <ul
-      class="sc-jqUVSM bBFcLq"
+      class="sc-jsEeTM hQaZnA"
     >
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 foo
               </p>
@@ -240,28 +272,32 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 bar
               </p>
@@ -270,28 +306,32 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 hoge
               </p>
@@ -300,28 +340,32 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie hlbDuP dcUJGp"
+        class="sc-kFCroH sc-irLvIq dMFoFL dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 fuga
               </p>
@@ -331,25 +375,31 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
       </li>
     </ul>
     <hr
-      class="sc-fLlhyt cCPNfc"
+      class="sc-fLseNd dUhxpB"
       color="#B3BAC1"
       orientation="vertical"
     />
     <div
-      class="sc-bjUoiL hkPZz"
+      class="sc-blmEgr dnjMBb"
     >
       <div
-        class="sc-idiyUo bKIXon"
+        class="sc-ifyrAs fdWRu"
       >
         <p
-          class="sc-fEOsli fayFCh"
+          align="left"
+          class="sc-fHejqy jScsaH"
           color="#041C33"
           font-size="13px"
+          lineheight="1.4"
+          weight="bold"
         >
           <span
-            class="sc-fEOsli jPgBVF"
+            align="left"
+            class="sc-fHejqy hzmlXz"
             color="#0B82F4"
             font-size="13px"
+            lineheight="1.4"
+            weight="bold"
           >
             4 
           </span>
@@ -357,21 +407,21 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </p>
       </div>
       <ul
-        class="sc-dIouRR"
+        class="sc-dJGMql"
       >
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           foo
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -389,18 +439,18 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
           </div>
         </li>
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           bar
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -418,18 +468,18 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
           </div>
         </li>
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           hoge
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -447,18 +497,18 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
           </div>
         </li>
         <li
-          class="sc-hHLeRK jXxJVM"
+          class="sc-hIPBNq HfKJi"
         >
           fuga
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -484,34 +534,38 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
 exports[`DualListBox component testing DualListBox candidateItems and selectedItems with inverse 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ kuSbTi"
+    class="sc-beySPh iJcWMs"
   >
     <ul
-      class="sc-jqUVSM bBFcLq"
+      class="sc-jsEeTM hQaZnA"
     >
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 foo
               </p>
@@ -520,28 +574,32 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 bar
               </p>
@@ -550,28 +608,32 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie kxcdly dcUJGp"
+        class="sc-kFCroH sc-irLvIq bEWmyC dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 hoge
               </p>
@@ -580,28 +642,32 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </div>
       </li>
       <li
-        class="sc-kDDrLX sc-iqcoie hlbDuP dcUJGp"
+        class="sc-kFCroH sc-irLvIq dMFoFL dugRrS"
       >
         <div
-          class="sc-dkzDqf hETaFj"
+          class="sc-dmyCSP ivdzlT"
           display="flex"
+          justifycontent="space-between"
         >
           <label
-            class="sc-hAZoDl cnpnnO"
+            class="sc-hABBmJ jvahUa"
           >
             <input
               checked=""
-              class="sc-ksZaOG etQTLn"
+              class="sc-ktwOfi eSdHTA"
               readonly=""
               type="checkbox"
             />
             <span
-              class="sc-fnykZs hZrbBW"
+              class="sc-fmKFGs bQhYUU"
             >
               <p
-                class="sc-fEOsli irbPqM"
+                align="left"
+                class="sc-fHejqy iHAJAy"
                 color="#041C33"
                 font-size="14px"
+                lineheight="1.4"
+                weight="normal"
               >
                 fuga
               </p>
@@ -611,25 +677,31 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
       </li>
     </ul>
     <hr
-      class="sc-fLlhyt cCPNfc"
+      class="sc-fLseNd dUhxpB"
       color="#B3BAC1"
       orientation="vertical"
     />
     <div
-      class="sc-bjUoiL hkPZz"
+      class="sc-blmEgr dnjMBb"
     >
       <div
-        class="sc-idiyUo bKIXon"
+        class="sc-ifyrAs fdWRu"
       >
         <p
-          class="sc-fEOsli fayFCh"
+          align="left"
+          class="sc-fHejqy jScsaH"
           color="#041C33"
           font-size="13px"
+          lineheight="1.4"
+          weight="bold"
         >
           <span
-            class="sc-fEOsli jPgBVF"
+            align="left"
+            class="sc-fHejqy hzmlXz"
             color="#0B82F4"
             font-size="13px"
+            lineheight="1.4"
+            weight="bold"
           >
             4 
           </span>
@@ -637,21 +709,21 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
         </p>
       </div>
       <ul
-        class="sc-dIouRR"
+        class="sc-dJGMql"
       >
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           foo
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -669,18 +741,18 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
           </div>
         </li>
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           bar
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -698,18 +770,18 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
           </div>
         </li>
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           hoge
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -727,18 +799,18 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
           </div>
         </li>
         <li
-          class="sc-hHLeRK jXxJVM"
+          class="sc-hIPBNq HfKJi"
         >
           fuga
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -764,31 +836,37 @@ exports[`DualListBox component testing DualListBox candidateItems and selectedIt
 exports[`DualListBox component testing DualListBox selectedItems 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ kuSbTi"
+    class="sc-beySPh iJcWMs"
   >
     <ul
-      class="sc-jqUVSM bBFcLq"
+      class="sc-jsEeTM hQaZnA"
     />
     <hr
-      class="sc-fLlhyt cCPNfc"
+      class="sc-fLseNd dUhxpB"
       color="#B3BAC1"
       orientation="vertical"
     />
     <div
-      class="sc-bjUoiL hkPZz"
+      class="sc-blmEgr dnjMBb"
     >
       <div
-        class="sc-idiyUo bKIXon"
+        class="sc-ifyrAs fdWRu"
       >
         <p
-          class="sc-fEOsli fayFCh"
+          align="left"
+          class="sc-fHejqy jScsaH"
           color="#041C33"
           font-size="13px"
+          lineheight="1.4"
+          weight="bold"
         >
           <span
-            class="sc-fEOsli jPgBVF"
+            align="left"
+            class="sc-fHejqy hzmlXz"
             color="#0B82F4"
             font-size="13px"
+            lineheight="1.4"
+            weight="bold"
           >
             4 
           </span>
@@ -796,21 +874,21 @@ exports[`DualListBox component testing DualListBox selectedItems 1`] = `
         </p>
       </div>
       <ul
-        class="sc-dIouRR"
+        class="sc-dJGMql"
       >
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           foo
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -828,18 +906,18 @@ exports[`DualListBox component testing DualListBox selectedItems 1`] = `
           </div>
         </li>
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           bar
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -857,18 +935,18 @@ exports[`DualListBox component testing DualListBox selectedItems 1`] = `
           </div>
         </li>
         <li
-          class="sc-hHLeRK dPqaSF"
+          class="sc-hIPBNq jPSKrv"
         >
           hoge
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg
@@ -886,18 +964,18 @@ exports[`DualListBox component testing DualListBox selectedItems 1`] = `
           </div>
         </li>
         <li
-          class="sc-hHLeRK jXxJVM"
+          class="sc-hIPBNq HfKJi"
         >
           fuga
           <div
-            class="sc-kgflAQ hZAlxa"
+            class="sc-khjJXk etXsGu"
           >
             <button
-              class="sc-dmRaPn mhBDH"
+              class="sc-dmXWDj bglNgn"
               type="button"
             >
               <span
-                class="sc-gsnTZi bkuzTp"
+                class="sc-guDLey bkEHsQ"
                 size="12"
               >
                 <svg

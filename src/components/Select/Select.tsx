@@ -10,6 +10,7 @@ import { fontSize } from "../Typography/Typography";
 import { ClearIndicator } from "./internal/ClearIndicator";
 import { DropdownIndicator } from "./internal/DropdownIndicator";
 import { MultiValueRemove } from "./internal/MultiValueRemove";
+import { ReactSelectMenuList } from "./internal/ReactSelectMenuList";
 import * as Styled from "./styled";
 
 export const getOverrideStyles = <OptionValue,>(
@@ -211,7 +212,7 @@ const Select = <OptionValue, IsMulti extends boolean>(
           ClearIndicator,
           IndicatorSeparator: null,
           MultiValueRemove,
-          MenuList: Styled.ReactSelectMenuList,
+          MenuList: ReactSelectMenuList,
           ...rest.components,
         }}
         onInputChange={handleInputChange}

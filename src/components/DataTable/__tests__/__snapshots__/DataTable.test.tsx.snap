@@ -3,50 +3,60 @@
 exports[`DataTable component testing DataTable 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ hjASDh"
+    class="sc-beySPh dmSDtt"
   >
     <div
-      class="sc-gsnTZi hTHHZw"
+      class="sc-guDLey eEifwL"
     >
       <div
-        class="sc-dkzDqf krrvGl"
+        class="sc-dmyCSP eTZfYP"
+        maxheight="none"
       >
         <table
-          class="sc-dmRaPn dndMdX"
+          class="sc-dmXWDj dbDZWL"
         >
           <thead>
             <tr
-              class="sc-hHLeRK cVPKua"
+              class="sc-hIPBNq gCnjkb"
+              verticalspacing="medium"
             >
               <th
-                class="sc-kDDrLX iGnGwZ"
+                class="sc-kFCroH nUkUr"
                 width="auto"
               >
                 <div
-                  class="sc-hKMtZM fsyGfN"
+                  alignitems="center"
+                  class="sc-hLQSwg kgWVek"
                   display="flex"
                 >
                   <div
-                    class="sc-eCYdqJ holOKQ"
+                    align="left"
+                    class="sc-eDLKkx bkdoMI"
                     color="#041C33"
                     font-size="14px"
+                    lineheight="1.4"
+                    weight="bold"
                   >
                     A
                   </div>
                 </div>
               </th>
               <th
-                class="sc-kDDrLX iGnGwZ"
+                class="sc-kFCroH nUkUr"
                 width="auto"
               >
                 <div
-                  class="sc-hKMtZM fsyGfN"
+                  alignitems="center"
+                  class="sc-hLQSwg kgWVek"
                   display="flex"
                 >
                   <div
-                    class="sc-eCYdqJ holOKQ"
+                    align="left"
+                    class="sc-eDLKkx bkdoMI"
                     color="#041C33"
                     font-size="14px"
+                    lineheight="1.4"
+                    weight="bold"
                   >
                     B
                   </div>
@@ -56,60 +66,74 @@ exports[`DataTable component testing DataTable 1`] = `
           </thead>
           <tbody>
             <tr
-              class="sc-hHLeRK cVPKua"
+              class="sc-hIPBNq gCnjkb"
+              verticalspacing="medium"
             >
               <td
-                class="sc-dIouRR jZIBYQ"
+                class="sc-dJGMql cBneuj"
                 rowspan="1"
                 width="auto"
               >
                 <p
-                  class="sc-eCYdqJ dYQaIK"
+                  align="left"
+                  class="sc-eDLKkx eBmlPi"
                   color="#041C33"
                   font-size="14px"
+                  lineheight="1.4"
+                  weight="normal"
                 >
                   name1
                 </p>
               </td>
               <td
-                class="sc-dIouRR jZIBYQ"
+                class="sc-dJGMql cBneuj"
                 rowspan="1"
                 width="auto"
               >
                 <p
-                  class="sc-eCYdqJ dYQaIK"
+                  align="left"
+                  class="sc-eDLKkx eBmlPi"
                   color="#041C33"
                   font-size="14px"
+                  lineheight="1.4"
+                  weight="normal"
                 >
                   name1
                 </p>
               </td>
             </tr>
             <tr
-              class="sc-hHLeRK cVPKua"
+              class="sc-hIPBNq gCnjkb"
+              verticalspacing="medium"
             >
               <td
-                class="sc-dIouRR jZIBYQ"
+                class="sc-dJGMql cBneuj"
                 rowspan="1"
                 width="auto"
               >
                 <p
-                  class="sc-eCYdqJ dYQaIK"
+                  align="left"
+                  class="sc-eDLKkx eBmlPi"
                   color="#041C33"
                   font-size="14px"
+                  lineheight="1.4"
+                  weight="normal"
                 >
                   name2
                 </p>
               </td>
               <td
-                class="sc-dIouRR jZIBYQ"
+                class="sc-dJGMql cBneuj"
                 rowspan="1"
                 width="auto"
               >
                 <p
-                  class="sc-eCYdqJ dYQaIK"
+                  align="left"
+                  class="sc-eDLKkx eBmlPi"
                   color="#041C33"
                   font-size="14px"
+                  lineheight="1.4"
+                  weight="normal"
                 >
                   name2
                 </p>

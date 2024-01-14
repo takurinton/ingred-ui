@@ -3,36 +3,42 @@
 exports[`Switch component testing Switch 1`] = `
 <DocumentFragment>
   <div
-    class="sc-bczRLJ dXkhFd"
+    class="sc-beySPh cizcJn"
   >
     <div
-      class="sc-gsnTZi gFfhsY"
+      class="sc-guDLey eOSJFX"
     >
       <div
-        class="sc-jSMfEi ljfHbc"
+        class="sc-jTQCzO jmtGQZ"
         style="left: 0px; width: 0px;"
       />
       <div
-        class="sc-dkzDqf imXUtC"
+        class="sc-dmyCSP hSWpeY"
       >
         <div
-          class="sc-eCYdqJ eKklgx"
+          class="sc-eDLKkx irPYag"
         >
           <span
-            class="sc-iBkjds gHCcyA"
+            align="left"
+            class="sc-iBdnpw hdyHie"
             color="#596978"
             font-size="13px"
+            lineheight="1.4"
+            weight="bold"
           >
             Hoge
           </span>
         </div>
         <div
-          class="sc-eCYdqJ eKklgx"
+          class="sc-eDLKkx irPYag"
         >
           <span
-            class="sc-iBkjds cjkpPO"
+            align="left"
+            class="sc-iBdnpw iaoXOs"
             color="#596978"
             font-size="13px"
+            lineheight="1.4"
+            weight="normal"
           >
             Fuga
           </span>

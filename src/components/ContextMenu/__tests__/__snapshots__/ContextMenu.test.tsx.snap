@@ -3,12 +3,15 @@
 exports[`ContextMenu component testing ContextMenu 1`] = `
 <DocumentFragment>
   <button
-    class="sc-crXcEl fqlPTR sc-evZas iMmWcl"
+    bordercolor="#9CDDFD"
+    class="sc-csKJxZ dRYuVn sc-eTNRI bmci"
     data-floating-ui-inert=""
     data-testid="icon-wrapper"
+    hoverbackgroundcolor="#CDF0FE"
+    normalbackgroundcolor="#F2F9FC"
   >
     <span
-      class="sc-iBkjds kTxGwl"
+      class="sc-iBdnpw cWhIRg"
       size="18"
     >
       <svg
@@ -28,75 +31,104 @@ exports[`ContextMenu component testing ContextMenu 1`] = `
     </span>
   </button>
   <div
-    class="sc-jqUVSM dDMzCb"
+    class="sc-jsEeTM iKKwDz"
   >
     <div
-      class="sc-iqcoie egyLNC fade-transition-enter fade-transition-enter-active"
+      class="sc-irLvIq iCNuCW fade-transition-enter fade-transition-enter-active"
     >
       <div
-        class="sc-kDDrLX JcSKl"
+        class="sc-kFCroH effcRN"
       />
     </div>
     <div
-      class="sc-papXJ eOlmTp"
+      class="sc-qZrbh eACKVt"
       id=":r0:"
       role="dialog"
       style="position: absolute; top: 0px; left: 0px;"
       tabindex="-1"
     >
       <div
-        class="sc-gsnTZi bHzWde"
+        class="sc-guDLey cEicFc"
+        maxheight="none"
       >
         <div
-          class="sc-jSMfEi jMMyQj"
+          active="[object Object]"
+          class="sc-jTQCzO jHZsqo"
+          hover="[object Object]"
+          normal="[object Object]"
         >
           <p
-            class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+            align="left"
+            class="sc-beySPh gYdMCB sc-eDLKkx"
             color="#041C33"
             font-size="13px"
+            lineheight="1.4"
+            weight="normal"
           >
             Save
           </p>
         </div>
         <hr
-          class="sc-gKXOVf iCDnFu"
+          class="sc-gLLuof cBLtSu"
           color="#E2E8EA"
+          mx="2"
+          my="1"
           orientation="horizontal"
         />
         <div
-          class="sc-jSMfEi jMMyQj"
+          active="[object Object]"
+          class="sc-jTQCzO jHZsqo"
+          hover="[object Object]"
+          normal="[object Object]"
         >
           <p
-            class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+            align="left"
+            class="sc-beySPh gYdMCB sc-eDLKkx"
             color="#041C33"
             font-size="13px"
+            lineheight="1.4"
+            weight="normal"
           >
             Save and execute
           </p>
         </div>
         <div
-          class="sc-jSMfEi jMMyQj"
+          active="[object Object]"
+          class="sc-jTQCzO jHZsqo"
+          hover="[object Object]"
+          normal="[object Object]"
         >
           <p
-            class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+            align="left"
+            class="sc-beySPh gYdMCB sc-eDLKkx"
             color="#041C33"
             font-size="13px"
+            lineheight="1.4"
+            weight="normal"
           >
             Save as draft
           </p>
         </div>
         <hr
-          class="sc-gKXOVf iCDnFu"
+          class="sc-gLLuof cBLtSu"
           color="#E2E8EA"
+          mx="2"
+          my="1"
           orientation="horizontal"
         />
         <div
-          class="sc-jSMfEi jMMyQj"
+          active="[object Object]"
+          class="sc-jTQCzO jHZsqo"
+          hover="[object Object]"
+          normal="[object Object]"
         >
           <p
-            class="sc-bczRLJ dkTFVi sc-eCYdqJ"
+            align="left"
+            class="sc-beySPh gYdMCB sc-eDLKkx"
             color="#041C33"
             font-size="13px"
+            lineheight="1.4"
+            weight="normal"
           >
             Delete
           </p>
