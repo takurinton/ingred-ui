@@ -643,10 +643,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@tsconfig/vite-react@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@tsconfig/vite-react/-/vite-react-2.0.0.tgz#dbc43a8e64162ff94242e1fafaf78061d4dc62f6"
-  integrity sha512-erT+k9yzjRYnqRn6Fmvz+Y8+AtE+/YE954frGGwwit2ifsoWzRzYaOTlGj9/z0xJyYiaKNnNiFhid312QdC4rw==
+"@tsconfig/vite-react@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@tsconfig/vite-react/-/vite-react-3.0.2.tgz#e49e4be4ee88858552316d22abafc95cd9e57958"
+  integrity sha512-AFynAtE1Un3Rko20Ghe2mVC/QWD4rStJ2PnyIZU2kzC4UyWpf1YhAEY87GojH/XPZCY8Mdt27gsYyy+6l6HV+w==
 
 "@types/babel__core@^7.20.4":
   version "7.20.4"
@@ -993,7 +993,7 @@ import-fresh@^3.2.1:
     resolve-from "^4.0.0"
 
 "ingred-ui@link:..":
-  version "17.1.0"
+  version "17.3.1"
   dependencies:
     "@floating-ui/react" "^0.26.0"
     dayjs "^1.11.6"
