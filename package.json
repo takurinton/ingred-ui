@@ -82,7 +82,7 @@
     "storybook": "7.5.3",
     "styled-components": "5.3.5",
     "ts-jest": "29.1.0",
-    "typescript": "5.2.2",
+    "typescript": "5.4.4",
     "vite": "4.4.6"
   },
   "files": [
